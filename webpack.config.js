@@ -5,7 +5,7 @@ var debug = process.env.NODE_ENV !== "production";
 const webpack = require('webpack');
 const path = require('path');
 
-const config = {
+module.exports =  {
     context: path.join(__dirname, "src"),
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./js/client.jsx",
@@ -17,7 +17,7 @@ const config = {
                 loader: 'babel-loader',
                 query: {
                     presets: ['react', 'es2015', 'stage-0'],
-                    plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy'],
+                    plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
                 }
             }
         ]
@@ -33,5 +33,3 @@ const config = {
     ]
 };
 
-
-module.exports = config;
