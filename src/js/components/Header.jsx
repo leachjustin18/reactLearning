@@ -3,15 +3,16 @@
  */
 import React from 'react';
 
-export default class Layout extends React.Component {
-    constructor() {
-        super();
-        this.name = 'Justin Leach';
-    }
+import Title from './Header/Title.jsx';
+
+export default class Header extends React.Component {
+
 
     render() {
         return (
-            <h1>Hi, my name is {this.name}!</h1>
+            <header>
+                <Title title={this.props.title}/>
+            </header>
         )
     }
 }

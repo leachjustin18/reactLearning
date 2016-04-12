@@ -3,15 +3,10 @@
  */
 import React from 'react';
 
-export default class Layout extends React.Component {
-    constructor() {
-        super();
-        this.name = 'Justin Leach';
-    }
-
+export default class Footer extends React.Component {
     render() {
         return (
-            <h1>Hi, my name is {this.name}!</h1>
+            <footer>This is the footer</footer>
         )
     }
 }
