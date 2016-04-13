@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a191efdb-c844-4d49-9f89-18da779f6bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/components/Header.jsx" afterPath="$PROJECT_DIR$/src/js/components/Header.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/components/layout.jsx" afterPath="$PROJECT_DIR$/src/js/components/layout.jsx" />
     </list>
     <ignored path="jLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -328,7 +328,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1460476683004</updated>
-      <workItem from="1460476684164" duration="12783000" />
+      <workItem from="1460476684164" duration="13351000" />
     </task>
     <task id="LOCAL-00001" summary="Adding components">
       <created>1460489891388</created>
@@ -358,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460492276369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="databinding">
+      <created>1460494185852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1460494185852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12783000" />
+    <option name="totallyTimeSpent" value="13351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
@@ -396,7 +403,8 @@
     <MESSAGE value="Props" />
     <MESSAGE value="Added styles" />
     <MESSAGE value="state and props" />
-    <option name="LAST_COMMIT_MESSAGE" value="state and props" />
+    <MESSAGE value="databinding" />
+    <option name="LAST_COMMIT_MESSAGE" value="databinding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -516,14 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Header/Title.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/Layout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -531,6 +531,14 @@
           <folding>
             <element signature="e#49#75#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Header/Title.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

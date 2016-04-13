@@ -6,11 +6,19 @@ import React from 'react';
 import Footer from './Footer.jsx';
 import Header from './Header.jsx';
 export default class Layout extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+           title: 'Welcomes my love'
+        };
+    }
+    changeTitle(title) {
+        this.setState({title});
+    }
     render() {
-        const title = 'Welcome Justin J';
         return (
             <section>
-                <Header title={title}/>
+                <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
                 <Footer/>
             </section>
         )
